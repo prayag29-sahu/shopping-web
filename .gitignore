@@ -1,0 +1,60 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+package-lock.json
+
+# Env
+.env
+.env.*.local
+.env.local
+.env.development
+.env.production
+.env.test
+
+
+# Next / Vite / build outputs
+.next/
+out/
+dist/
+build/
+.vite/
+
+# Logs
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+
+# Uploads / user data (if you keep on disk)
+uploads/
+shared/uploads/
+
+# Optional: lockfiles you don't want to push (choose one)
+# package-lock.json
+# pnpm-lock.yaml
+
+# Typescript
+*.tsbuildinfo
+
+# local override files
+.local.env
+
+serviceAccountKey.json
+ecosystem.config.js
